@@ -11,8 +11,8 @@
 # OS files
 .DS_Store
 Thumbs.db
-EOF
+# EOF
 
-git add .gitignore
-git commit -m "Add .gitignore for Eagle project"
-git push
+# git add .gitignore
+# git commit -m "Add .gitignore for Eagle project"
+# git push
