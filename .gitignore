@@ -1,0 +1,18 @@
+# 在终端中执行
+# cat > .gitignore << 'EOF'
+# Eagle backup files
+*.b#*
+*.s#*
+*.bak
+
+# Eagle lock files
+*.lck
+
+# OS files
+.DS_Store
+Thumbs.db
+EOF
+
+git add .gitignore
+git commit -m "Add .gitignore for Eagle project"
+git push
