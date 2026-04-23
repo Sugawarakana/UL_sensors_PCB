@@ -1,12 +1,12 @@
 ## Project Overview
-Eagle-based PCB Design for UL project in University of Michigan, Ann Arbor Battery Control Group.
+Eagle-based PCB design for the UL project at the University of Michigan, Ann Arbor — Battery Control Group.
 
-## File Description
-- `Connection.brd` - PCB Layout File
-- `Connection.sch` - Schematic File
+## Files
+- `Connection.brd` — PCB layout file
+- `Connection.sch` — Schematic file
 
 ## Tools
 - Autodesk Eagle 9.6.2
 
-## Descriptions:
-JP1 & JP2: Female pin headers for nucleo G431KB
+## Descriptions
+- **JP1 & JP2:** Female pin headers for Nucleo G431KB
