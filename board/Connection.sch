@@ -9748,7 +9748,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV3" gate="G$1" pin="3"/>
 <pinref part="JP1" gate="A" pin="3"/>
 <junction x="241.3" y="93.98"/>
-<pinref part="JP1" gate="A" pin="3"/>
 <wire x1="241.3" y1="93.98" x2="254" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9757,7 +9756,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV3" gate="G$1" pin="4"/>
 <pinref part="JP1" gate="A" pin="4"/>
 <junction x="241.3" y="91.44"/>
-<pinref part="JP1" gate="A" pin="4"/>
 <wire x1="241.3" y1="91.44" x2="254" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9766,7 +9764,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV3" gate="G$1" pin="5"/>
 <pinref part="JP1" gate="A" pin="5"/>
 <junction x="241.3" y="88.9"/>
-<pinref part="JP1" gate="A" pin="5"/>
 <wire x1="241.3" y1="88.9" x2="254" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9775,7 +9772,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV4" gate="G$1" pin="1"/>
 <pinref part="JP1" gate="A" pin="9"/>
 <junction x="241.3" y="78.74"/>
-<pinref part="JP1" gate="A" pin="9"/>
 <wire x1="241.3" y1="78.74" x2="254" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9784,7 +9780,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV4" gate="G$1" pin="2"/>
 <pinref part="JP1" gate="A" pin="10"/>
 <junction x="241.3" y="76.2"/>
-<pinref part="JP1" gate="A" pin="10"/>
 <wire x1="241.3" y1="76.2" x2="254" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9793,7 +9788,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV4" gate="G$1" pin="3"/>
 <pinref part="JP1" gate="A" pin="11"/>
 <junction x="241.3" y="73.66"/>
-<pinref part="JP1" gate="A" pin="11"/>
 <wire x1="241.3" y1="73.66" x2="254" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9802,7 +9796,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV4" gate="G$1" pin="5"/>
 <pinref part="JP1" gate="A" pin="13"/>
 <junction x="241.3" y="68.58"/>
-<pinref part="JP1" gate="A" pin="13"/>
 <wire x1="241.3" y1="68.58" x2="254" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9811,7 +9804,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV4" gate="G$1" pin="7"/>
 <pinref part="JP1" gate="A" pin="15"/>
 <junction x="241.3" y="63.5"/>
-<pinref part="JP1" gate="A" pin="15"/>
 <wire x1="241.3" y1="63.5" x2="254" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9820,7 +9812,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV1" gate="G$1" pin="1"/>
 <pinref part="JP2" gate="A" pin="8"/>
 <junction x="215.9" y="81.28"/>
-<pinref part="JP2" gate="A" pin="8"/>
 <wire x1="215.9" y1="81.28" x2="203.2" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9829,7 +9820,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV1" gate="G$1" pin="2"/>
 <pinref part="JP2" gate="A" pin="7"/>
 <junction x="215.9" y="83.82"/>
-<pinref part="JP2" gate="A" pin="7"/>
 <wire x1="215.9" y1="83.82" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9838,7 +9828,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV1" gate="G$1" pin="3"/>
 <pinref part="JP2" gate="A" pin="6"/>
 <junction x="215.9" y="86.36"/>
-<pinref part="JP2" gate="A" pin="6"/>
 <wire x1="215.9" y1="86.36" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9847,7 +9836,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV1" gate="G$1" pin="6"/>
 <pinref part="JP2" gate="A" pin="3"/>
 <junction x="215.9" y="93.98"/>
-<pinref part="JP2" gate="A" pin="3"/>
 <wire x1="215.9" y1="93.98" x2="203.2" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9856,7 +9844,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV1" gate="G$1" pin="7"/>
 <pinref part="JP2" gate="A" pin="2"/>
 <junction x="215.9" y="96.52"/>
-<pinref part="JP2" gate="A" pin="2"/>
 <wire x1="215.9" y1="96.52" x2="203.2" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9865,7 +9852,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV1" gate="G$1" pin="8"/>
 <pinref part="JP2" gate="A" pin="1"/>
 <junction x="215.9" y="99.06"/>
-<pinref part="JP2" gate="A" pin="1"/>
 <wire x1="215.9" y1="99.06" x2="203.2" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9874,7 +9860,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV2" gate="G$1" pin="2"/>
 <pinref part="JP2" gate="A" pin="15"/>
 <junction x="215.9" y="63.5"/>
-<pinref part="JP2" gate="A" pin="15"/>
 <wire x1="215.9" y1="63.5" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9883,7 +9868,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV2" gate="G$1" pin="3"/>
 <pinref part="JP2" gate="A" pin="14"/>
 <junction x="215.9" y="66.04"/>
-<pinref part="JP2" gate="A" pin="14"/>
 <wire x1="215.9" y1="66.04" x2="203.2" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9892,7 +9876,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV2" gate="G$1" pin="5"/>
 <pinref part="JP2" gate="A" pin="12"/>
 <junction x="215.9" y="71.12"/>
-<pinref part="JP2" gate="A" pin="12"/>
 <wire x1="215.9" y1="71.12" x2="203.2" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9901,7 +9884,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV2" gate="G$1" pin="6"/>
 <pinref part="JP2" gate="A" pin="11"/>
 <junction x="215.9" y="73.66"/>
-<pinref part="JP2" gate="A" pin="11"/>
 <wire x1="215.9" y1="73.66" x2="203.2" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9910,7 +9892,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV2" gate="G$1" pin="7"/>
 <pinref part="JP2" gate="A" pin="10"/>
 <junction x="215.9" y="76.2"/>
-<pinref part="JP2" gate="A" pin="10"/>
 <wire x1="215.9" y1="76.2" x2="203.2" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9919,7 +9900,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV2" gate="G$1" pin="8"/>
 <pinref part="JP2" gate="A" pin="9"/>
 <junction x="215.9" y="78.74"/>
-<pinref part="JP2" gate="A" pin="9"/>
 <wire x1="215.9" y1="78.74" x2="203.2" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10089,7 +10069,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <pinref part="SV3" gate="G$1" pin="6"/>
 <pinref part="JP1" gate="A" pin="6"/>
 <junction x="241.3" y="86.36"/>
-<pinref part="JP1" gate="A" pin="6"/>
 <wire x1="241.3" y1="86.36" x2="254" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
