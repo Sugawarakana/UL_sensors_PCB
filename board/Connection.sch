@@ -9252,8 +9252,8 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1.0uF"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X15" device="" package3d_urn="urn:adsk.eagle:package:22424/2"/>
-<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X15" device="" package3d_urn="urn:adsk.eagle:package:22424/2"/>
+<part name="CN3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X15" device="" package3d_urn="urn:adsk.eagle:package:22424/2" value="CN3"/>
+<part name="CN4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X15" device="" package3d_urn="urn:adsk.eagle:package:22424/2" value="CN4"/>
 <part name="X1" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MKDSN1,5/4-5,08" device="" package3d_urn="urn:adsk.eagle:package:9636/1"/>
 <part name="X2" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MKDSN1,5/2-5,08" device="" package3d_urn="urn:adsk.eagle:package:9630/1"/>
 </parts>
@@ -9383,11 +9383,11 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <instance part="P+1" gate="1" x="266.7" y="109.22" smashed="yes">
 <attribute name="VALUE" x="264.16" y="104.14" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JP1" gate="A" x="243.84" y="81.28" smashed="yes">
+<instance part="CN3" gate="A" x="243.84" y="81.28" smashed="yes">
 <attribute name="NAME" x="237.49" y="102.235" size="1.778" layer="95"/>
 <attribute name="VALUE" x="237.49" y="58.42" size="1.778" layer="96"/>
 </instance>
-<instance part="JP2" gate="A" x="218.44" y="81.28" smashed="yes">
+<instance part="CN4" gate="A" x="218.44" y="81.28" smashed="yes">
 <attribute name="NAME" x="212.09" y="102.235" size="1.778" layer="95"/>
 <attribute name="VALUE" x="212.09" y="58.42" size="1.778" layer="96"/>
 </instance>
@@ -9433,7 +9433,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <junction x="269.24" y="81.28"/>
 <junction x="259.08" y="81.28"/>
 <wire x1="259.08" y1="81.28" x2="241.3" y2="81.28" width="0.1524" layer="91" grouprefs="NUCLEO_WITH_PINS"/>
-<pinref part="JP1" gate="A" pin="8"/>
+<pinref part="CN3" gate="A" pin="8"/>
 <wire x1="241.3" y1="81.28" x2="254" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9455,7 +9455,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="266.7" y1="96.52" x2="269.24" y2="96.52" width="0.1524" layer="91" grouprefs="NUCLEO_WITH_PINS"/>
 <junction x="266.7" y="96.52"/>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="CN3" gate="A" pin="2"/>
 <wire x1="241.3" y1="96.52" x2="254" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9484,6 +9484,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="147.32" y1="27.94" x2="177.8" y2="27.94" width="0.1524" layer="91" grouprefs="CAN_TRAN"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <label x="147.32" y="27.94" size="1.778" layer="95" grouprefs="CAN_TRAN"/>
+<junction x="147.32" y="27.94"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="-20.32" x2="167.64" y2="-20.32" width="0.1524" layer="91" grouprefs="PIN_OUTS"/>
@@ -9501,11 +9502,13 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="0" y1="15.24" x2="0" y2="12.7" width="0.1524" layer="91" grouprefs="3V3TO3V_LDO"/>
 <wire x1="0" y1="12.7" x2="-7.62" y2="12.7" width="0.1524" layer="91" grouprefs="3V3TO3V_LDO"/>
+<junction x="0" y="15.24"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="20.32" x2="50.8" y2="20.32" width="0.1524" layer="91" grouprefs="3V3TO3V_LDO"/>
 <label x="50.8" y="20.32" size="1.778" layer="95" grouprefs="3V3TO3V_LDO"/>
+<junction x="50.8" y="20.32"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -9536,7 +9539,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="198.12" y1="91.44" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
 <junction x="187.96" y="91.44"/>
 <label x="187.96" y="91.44" size="1.778" layer="95"/>
-<pinref part="JP2" gate="A" pin="4"/>
+<pinref part="CN4" gate="A" pin="4"/>
 <wire x1="215.9" y1="91.44" x2="203.2" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9549,7 +9552,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <junction x="187.96" y="88.9"/>
 <junction x="198.12" y="88.9"/>
 <wire x1="198.12" y1="88.9" x2="187.96" y2="88.9" width="0.1524" layer="91" grouprefs="NUCLEO_WITH_PINS"/>
-<pinref part="JP2" gate="A" pin="5"/>
+<pinref part="CN4" gate="A" pin="5"/>
 <wire x1="215.9" y1="88.9" x2="203.2" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9574,7 +9577,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <junction x="187.96" y="68.58"/>
 <junction x="198.12" y="68.58"/>
 <wire x1="198.12" y1="68.58" x2="215.9" y2="68.58" width="0.1524" layer="91" grouprefs="NUCLEO_WITH_PINS"/>
-<pinref part="JP2" gate="A" pin="13"/>
+<pinref part="CN4" gate="A" pin="13"/>
 <wire x1="215.9" y1="68.58" x2="203.2" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9598,7 +9601,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <junction x="269.24" y="71.12"/>
 <junction x="259.08" y="71.12"/>
 <wire x1="259.08" y1="71.12" x2="241.3" y2="71.12" width="0.1524" layer="91" grouprefs="NUCLEO_WITH_PINS"/>
-<pinref part="JP1" gate="A" pin="12"/>
+<pinref part="CN3" gate="A" pin="12"/>
 <wire x1="241.3" y1="71.12" x2="254" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9611,7 +9614,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <junction x="269.24" y="83.82"/>
 <junction x="259.08" y="83.82"/>
 <wire x1="259.08" y1="83.82" x2="269.24" y2="83.82" width="0.1524" layer="91" grouprefs="NUCLEO_WITH_PINS"/>
-<pinref part="JP1" gate="A" pin="7"/>
+<pinref part="CN3" gate="A" pin="7"/>
 <wire x1="241.3" y1="83.82" x2="254" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9647,7 +9650,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$18" class="0">
 <segment>
 <pinref part="SV3" gate="G$1" pin="3"/>
-<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="CN3" gate="A" pin="3"/>
 <junction x="241.3" y="93.98"/>
 <wire x1="241.3" y1="93.98" x2="254" y2="93.98" width="0.1524" layer="91"/>
 </segment>
@@ -9655,7 +9658,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$19" class="0">
 <segment>
 <pinref part="SV3" gate="G$1" pin="4"/>
-<pinref part="JP1" gate="A" pin="4"/>
+<pinref part="CN3" gate="A" pin="4"/>
 <junction x="241.3" y="91.44"/>
 <wire x1="241.3" y1="91.44" x2="254" y2="91.44" width="0.1524" layer="91"/>
 </segment>
@@ -9663,7 +9666,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$20" class="0">
 <segment>
 <pinref part="SV3" gate="G$1" pin="5"/>
-<pinref part="JP1" gate="A" pin="5"/>
+<pinref part="CN3" gate="A" pin="5"/>
 <junction x="241.3" y="88.9"/>
 <wire x1="241.3" y1="88.9" x2="254" y2="88.9" width="0.1524" layer="91"/>
 </segment>
@@ -9671,7 +9674,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$22" class="0">
 <segment>
 <pinref part="SV4" gate="G$1" pin="1"/>
-<pinref part="JP1" gate="A" pin="9"/>
+<pinref part="CN3" gate="A" pin="9"/>
 <junction x="241.3" y="78.74"/>
 <wire x1="241.3" y1="78.74" x2="254" y2="78.74" width="0.1524" layer="91"/>
 </segment>
@@ -9679,7 +9682,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$23" class="0">
 <segment>
 <pinref part="SV4" gate="G$1" pin="2"/>
-<pinref part="JP1" gate="A" pin="10"/>
+<pinref part="CN3" gate="A" pin="10"/>
 <junction x="241.3" y="76.2"/>
 <wire x1="241.3" y1="76.2" x2="254" y2="76.2" width="0.1524" layer="91"/>
 </segment>
@@ -9687,7 +9690,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$24" class="0">
 <segment>
 <pinref part="SV4" gate="G$1" pin="3"/>
-<pinref part="JP1" gate="A" pin="11"/>
+<pinref part="CN3" gate="A" pin="11"/>
 <junction x="241.3" y="73.66"/>
 <wire x1="241.3" y1="73.66" x2="254" y2="73.66" width="0.1524" layer="91"/>
 </segment>
@@ -9695,7 +9698,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$25" class="0">
 <segment>
 <pinref part="SV4" gate="G$1" pin="5"/>
-<pinref part="JP1" gate="A" pin="13"/>
+<pinref part="CN3" gate="A" pin="13"/>
 <junction x="241.3" y="68.58"/>
 <wire x1="241.3" y1="68.58" x2="254" y2="68.58" width="0.1524" layer="91"/>
 </segment>
@@ -9703,7 +9706,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$26" class="0">
 <segment>
 <pinref part="SV4" gate="G$1" pin="7"/>
-<pinref part="JP1" gate="A" pin="15"/>
+<pinref part="CN3" gate="A" pin="15"/>
 <junction x="241.3" y="63.5"/>
 <wire x1="241.3" y1="63.5" x2="254" y2="63.5" width="0.1524" layer="91"/>
 </segment>
@@ -9711,7 +9714,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$27" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="1"/>
-<pinref part="JP2" gate="A" pin="8"/>
+<pinref part="CN4" gate="A" pin="8"/>
 <junction x="215.9" y="81.28"/>
 <wire x1="215.9" y1="81.28" x2="203.2" y2="81.28" width="0.1524" layer="91"/>
 </segment>
@@ -9719,7 +9722,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$28" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="2"/>
-<pinref part="JP2" gate="A" pin="7"/>
+<pinref part="CN4" gate="A" pin="7"/>
 <junction x="215.9" y="83.82"/>
 <wire x1="215.9" y1="83.82" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
 </segment>
@@ -9727,7 +9730,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$29" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="3"/>
-<pinref part="JP2" gate="A" pin="6"/>
+<pinref part="CN4" gate="A" pin="6"/>
 <junction x="215.9" y="86.36"/>
 <wire x1="215.9" y1="86.36" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
 </segment>
@@ -9735,7 +9738,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$31" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="6"/>
-<pinref part="JP2" gate="A" pin="3"/>
+<pinref part="CN4" gate="A" pin="3"/>
 <junction x="215.9" y="93.98"/>
 <wire x1="215.9" y1="93.98" x2="203.2" y2="93.98" width="0.1524" layer="91"/>
 </segment>
@@ -9743,7 +9746,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$32" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="7"/>
-<pinref part="JP2" gate="A" pin="2"/>
+<pinref part="CN4" gate="A" pin="2"/>
 <junction x="215.9" y="96.52"/>
 <wire x1="215.9" y1="96.52" x2="203.2" y2="96.52" width="0.1524" layer="91"/>
 </segment>
@@ -9751,7 +9754,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$33" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="8"/>
-<pinref part="JP2" gate="A" pin="1"/>
+<pinref part="CN4" gate="A" pin="1"/>
 <junction x="215.9" y="99.06"/>
 <wire x1="215.9" y1="99.06" x2="203.2" y2="99.06" width="0.1524" layer="91"/>
 </segment>
@@ -9759,7 +9762,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$34" class="0">
 <segment>
 <pinref part="SV2" gate="G$1" pin="2"/>
-<pinref part="JP2" gate="A" pin="15"/>
+<pinref part="CN4" gate="A" pin="15"/>
 <junction x="215.9" y="63.5"/>
 <wire x1="215.9" y1="63.5" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
 </segment>
@@ -9767,7 +9770,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$35" class="0">
 <segment>
 <pinref part="SV2" gate="G$1" pin="3"/>
-<pinref part="JP2" gate="A" pin="14"/>
+<pinref part="CN4" gate="A" pin="14"/>
 <junction x="215.9" y="66.04"/>
 <wire x1="215.9" y1="66.04" x2="203.2" y2="66.04" width="0.1524" layer="91"/>
 </segment>
@@ -9775,7 +9778,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$36" class="0">
 <segment>
 <pinref part="SV2" gate="G$1" pin="5"/>
-<pinref part="JP2" gate="A" pin="12"/>
+<pinref part="CN4" gate="A" pin="12"/>
 <junction x="215.9" y="71.12"/>
 <wire x1="215.9" y1="71.12" x2="203.2" y2="71.12" width="0.1524" layer="91"/>
 </segment>
@@ -9783,7 +9786,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$37" class="0">
 <segment>
 <pinref part="SV2" gate="G$1" pin="6"/>
-<pinref part="JP2" gate="A" pin="11"/>
+<pinref part="CN4" gate="A" pin="11"/>
 <junction x="215.9" y="73.66"/>
 <wire x1="215.9" y1="73.66" x2="203.2" y2="73.66" width="0.1524" layer="91"/>
 </segment>
@@ -9791,7 +9794,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$38" class="0">
 <segment>
 <pinref part="SV2" gate="G$1" pin="7"/>
-<pinref part="JP2" gate="A" pin="10"/>
+<pinref part="CN4" gate="A" pin="10"/>
 <junction x="215.9" y="76.2"/>
 <wire x1="215.9" y1="76.2" x2="203.2" y2="76.2" width="0.1524" layer="91"/>
 </segment>
@@ -9799,7 +9802,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$39" class="0">
 <segment>
 <pinref part="SV2" gate="G$1" pin="8"/>
-<pinref part="JP2" gate="A" pin="9"/>
+<pinref part="CN4" gate="A" pin="9"/>
 <junction x="215.9" y="78.74"/>
 <wire x1="215.9" y1="78.74" x2="203.2" y2="78.74" width="0.1524" layer="91"/>
 </segment>
@@ -9840,7 +9843,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <junction x="269.24" y="66.04"/>
 <junction x="259.08" y="66.04"/>
 <wire x1="259.08" y1="66.04" x2="269.24" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="14"/>
+<pinref part="CN3" gate="A" pin="14"/>
 <wire x1="241.3" y1="66.04" x2="254" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9878,11 +9881,13 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="10.16" y1="20.32" x2="-7.62" y2="20.32" width="0.1524" layer="91" grouprefs="3V3TO3V_LDO"/>
 <label x="0" y="22.86" size="1.778" layer="95" grouprefs="3V3TO3V_LDO"/>
 <pinref part="C10" gate="G$1" pin="1"/>
+<junction x="-7.62" y="20.32"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="EN"/>
 <wire x1="10.16" y1="10.16" x2="0" y2="10.16" width="0.1524" layer="91" grouprefs="3V3TO3V_LDO"/>
 <label x="0" y="7.62" size="1.778" layer="95" grouprefs="3V3TO3V_LDO"/>
+<junction x="0" y="10.16"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -9952,7 +9957,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$6" class="0">
 <segment>
 <pinref part="SV3" gate="G$1" pin="6"/>
-<pinref part="JP1" gate="A" pin="6"/>
+<pinref part="CN3" gate="A" pin="6"/>
 <junction x="241.3" y="86.36"/>
 <wire x1="241.3" y1="86.36" x2="254" y2="86.36" width="0.1524" layer="91"/>
 </segment>
@@ -10016,7 +10021,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="259.08" y1="99.06" x2="241.3" y2="99.06" width="0.1524" layer="91" grouprefs="NUCLEO_WITH_PINS"/>
 <junction x="266.7" y="99.06"/>
 <pinref part="P+1" gate="1" pin="+12V"/>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="CN3" gate="A" pin="1"/>
 <wire x1="241.3" y1="99.06" x2="254" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -10045,20 +10050,10 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <approved hash="111,1,200.66,68.58,RX,,,,,"/>
 <approved hash="111,1,256.54,71.12,ADC,,,,,"/>
 <approved hash="111,1,256.54,66.04,3V3,,,,,"/>
-<approved hash="113,1,178.498,-20.32,GND_BOARD,,,,,"/>
-<approved hash="113,1,182.859,-24.4306,CAN_H,,,,,"/>
-<approved hash="113,1,175.138,-31.7475,CAN_L,,,,,"/>
-<approved hash="113,1,157.182,-19.0525,GND_CAN,,,,,"/>
 <approved hash="113,1,200.618,91.7296,SV1,,,,,"/>
 <approved hash="113,1,256.582,88.6104,SV3,,,,,"/>
 <approved hash="113,1,200.618,71.4096,SV2,,,,,"/>
 <approved hash="113,1,256.582,68.2904,SV4,,,,,"/>
-<approved hash="113,1,155.982,-24.1325,CAN_H1,,,,,"/>
-<approved hash="113,1,155.772,-29.2125,CAN_L1,,,,,"/>
-<approved hash="113,1,215.858,-27.6504,SV5,,,,,"/>
-<approved hash="113,1,200.618,-27.6504,SV6,,,,,"/>
-<approved hash="113,1,241.537,82.7761,JP1,,,,,"/>
-<approved hash="113,1,216.137,82.7761,JP2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
