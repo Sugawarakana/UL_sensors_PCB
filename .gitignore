@@ -4,6 +4,8 @@
 *.b#*
 *.s#*
 *.bak
+*.zip
+*.csv
 
 # Eagle lock files
 *.lck
