@@ -1,3 +1,5 @@
+## Note: This project has been migrated into ULDSG
+
 ## Project Overview
 Eagle-based PCB design for the UL project at the University of Michigan, Ann Arbor — Battery Control Group.
 
